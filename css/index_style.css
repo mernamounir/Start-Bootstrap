@@ -1,0 +1,163 @@
+.home
+{
+    background-image: url(../images/header-bg.jpg);
+    background-size: 100% 100%;
+    height: 700px;
+}
+.home h1
+{
+    font-size: 75px;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    padding: 15px;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #ffb606;
+}
+.navbar
+{
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-light .navbar-brand
+{
+    color: #ffb606;
+}
+.line
+{
+    position: relative;
+}
+.line:after
+{
+    content: "";
+    width: 100px;
+    height: 2px;
+    top: 110%;
+    left: 50%;
+    position: absolute;
+    background-color: #ffb606;
+    margin-left: 5px;
+}
+.line:before
+{
+    content: "";
+    width: 100px;
+    height: 2px;
+    top: 110%;
+    right: 50%;
+    position: absolute;
+    background-color: #ffb606;
+    margin-right: 5px;
+}
+.card-layer .layer
+{
+     width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fed136;
+   opacity: 0;
+   transition: all 1s;
+}
+.card-layer:hover .layer
+{
+    opacity: 1;
+}
+.img-modal
+{
+    width: 100%;
+}
+
+.item
+{
+    overflow: hidden;
+}
+ ul li
+{
+    display: inline;
+}
+.layer-team
+{
+    position: absolute;
+    background-color: rgba(0,33,71,0.7);
+    width: 90%;
+    height: 90%;
+    bottom: 105%;
+    left: 5%;
+    right: 5%;
+    transition: bottom 1s;
+}
+.item:hover .layer-team
+{
+    bottom: 5%;
+    
+}
+.layer-info
+{
+    position: absolute;
+    background-color: white;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    transition: all 1s;
+}
+.item:hover .layer-info
+{
+    bottom: -100%;
+}
+.card1
+{
+    background-color: #337ab7;
+    transition: all 1s;
+}
+.card2
+{
+    background-color: #1ec1d9;
+    transition: all 1s;
+}
+.card3
+{
+    background-color: #10c45c;
+    transition: all 1s;
+}
+.card4
+{
+    background-color: #47c58e;
+    transition: all 1s;
+}
+.card5
+{
+    background-color: #f9bd44;
+    transition: all 1s;
+}
+.card6
+{
+    background-color: #e948ae;
+    transition: all 1s;
+}
+.card7
+{
+    background-color: #e84b3a;
+    transition: all 1s;
+}
+.card8
+{
+    background-color: #92278f;
+    transition: all 1s;
+}
+.card:hover .card-img-overlay
+{
+    background-color: rgba(0,0,0,.3)
+}
+.contact-us{
+   
+    background-color: #212529;
+    background-image: url(../images/map-image.png);
+    background-size: cover
+}
+.contact-us h2{
+     font-family: 'Montserrat', sans-serif;
+}
